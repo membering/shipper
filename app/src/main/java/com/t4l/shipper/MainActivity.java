@@ -6,7 +6,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 
-public class MainActivity extends BaseAcivity implements OnMapReadyCallback {
+public class MainActivity extends BaseAcivity {
 
     protected static final String TAG = "MainActivity";
 
@@ -17,11 +17,5 @@ public class MainActivity extends BaseAcivity implements OnMapReadyCallback {
 
         mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-    }
-
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
-        mMap.getUiSettings().setZoomControlsEnabled(true);
     }
 }

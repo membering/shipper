@@ -42,7 +42,8 @@
                     android:inputType="textEmailAddress"
                     android:text="foo@example.com"
                     android:maxLines="1"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"/>
 
             </android.support.design.widget.TextInputLayout>
 
