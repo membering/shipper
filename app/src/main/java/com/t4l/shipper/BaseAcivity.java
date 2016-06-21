@@ -35,6 +35,10 @@ public class BaseAcivity extends AppCompatActivity implements OnMapReadyCallback
     protected GoogleApiClient mGoogleApiClient;
     protected Location mLastLocation;
 
+    public void showToast(String text) {
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
