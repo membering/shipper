@@ -7,7 +7,7 @@ import com.loopj.android.http.*;
  * Created by HOME on 6/17/2016.
  */
 public class HttpClient {
-    private static final String BASE_URL = "http://192.168.1.102";
+    private static final String BASE_URL = "http://192.168.1.152/Projects/T4L/account";
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 
